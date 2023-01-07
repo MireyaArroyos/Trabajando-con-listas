@@ -6,19 +6,28 @@ body{
    /* height: 80%;*/
 }
 .principal{
-    background: #CCCCCC;
+   background: #CCCCCC;
+   padding: 20px;
 }
-
+/*
 h1{
     text-align:center;
-    /*background-color: #CCCCCC;*/
-    /*height: 150px;
+    background-color: #CCCCCC;
+    height: 150px;
     border: 10px solid #000000;
     padding:20px;
-    margin-left:40px;*/
+    margin-left:40px;
+    text-align:center;
+}*/
+.titulo-principal{
+    padding-left: 30px;
+}
+.titulo-centralizado{
+    text-align:center;
 }
 p{
     text-align: center;
+    padding: auto;
 
 }
 
@@ -32,11 +41,23 @@ em strong {
 }
 .diferenciales{
     background:#FFFFFF;
+    padding: 30px;
 
 }
-h2{
+/*h2{
     text-align: center;
-}
+}*/
 .items{
     font-style: italic;
+}
+ul{
+    display:inline-block;
+    vertical-align:top;
+    width:20%;
+    margin-right: 15%;
+    
+}
+.imagenDiferenciales{
+    width:50%;
+
 }
